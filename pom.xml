@@ -7,6 +7,14 @@
     <groupId>org.example</groupId>
     <artifactId>healthcare-service</artifactId>
     <version>1.0-SNAPSHOT</version>
+    <properties>
+        <!--        <maven.compiler.source>15</maven.compiler.source>-->
+        <!--        <maven.compiler.target>15</maven.compiler.target>-->
+        <junit.jupiter.version>5.7.2</junit.jupiter.version>
+        <!--        <junit.surefire.version>2.22.2</junit.surefire.version>-->
+        <!--        <junit.platform.version>1.7.2</junit.platform.version>-->
+        <!--        <junit.compiler.version>3.8.1</junit.compiler.version>-->
+    </properties>
 
     <dependencies>
         <dependency>
@@ -23,6 +31,24 @@
             <groupId>com.fasterxml.jackson.module</groupId>
             <artifactId>jackson-module-parameter-names</artifactId>
             <version>2.11.1</version>
+        </dependency>
+        <dependency>
+            <groupId>org.junit.jupiter</groupId>
+            <artifactId>junit-jupiter-engine</artifactId>
+            <version>${junit.jupiter.version}</version>
+            <scope>test</scope>
+        </dependency>
+        <dependency>
+            <groupId>org.junit.jupiter</groupId>
+            <artifactId>junit-jupiter-api</artifactId>
+            <version>${junit.jupiter.version}</version>
+            <scope>test</scope>
+        </dependency>
+        <dependency>
+            <groupId>org.mockito</groupId>
+            <artifactId>mockito-all</artifactId>
+            <version>1.10.19</version>
+            <scope>test</scope>
         </dependency>
     </dependencies>
     <build>
