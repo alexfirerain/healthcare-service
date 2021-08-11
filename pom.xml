@@ -8,12 +8,12 @@
     <artifactId>healthcare-service</artifactId>
     <version>1.0-SNAPSHOT</version>
     <properties>
-        <!--        <maven.compiler.source>15</maven.compiler.source>-->
-        <!--        <maven.compiler.target>15</maven.compiler.target>-->
+        <maven.compiler.source>15</maven.compiler.source>
+        <maven.compiler.target>15</maven.compiler.target>
         <junit.jupiter.version>5.7.2</junit.jupiter.version>
-        <!--        <junit.surefire.version>2.22.2</junit.surefire.version>-->
-        <!--        <junit.platform.version>1.7.2</junit.platform.version>-->
-        <!--        <junit.compiler.version>3.8.1</junit.compiler.version>-->
+        <junit.surefire.version>2.22.2</junit.surefire.version>
+        <junit.platform.version>1.7.2</junit.platform.version>
+        <junit.compiler.version>3.8.1</junit.compiler.version>
     </properties>
 
     <dependencies>
